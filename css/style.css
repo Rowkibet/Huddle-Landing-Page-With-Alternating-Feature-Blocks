@@ -85,7 +85,7 @@ header {
 }
 
 .text {
-    margin-right: 75px;
+    margin-right: 65px;
     padding-top: 100px;
 }
 
@@ -120,7 +120,7 @@ header {
 }
 
 main {
-    padding: 90px 0px 290px;
+    padding: 150px 0px 290px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -207,7 +207,7 @@ main {
 }
 
 footer {
-    background-color: hsl(192, 100%, 6%);
+    background-color: var(--very-dark-cyan);
     padding: 190px 70px 63px 100px;
     color: #ffffff;
     position: relative;
@@ -352,6 +352,10 @@ img[src*="icon-location"] {
 
     .inner-container {
         grid-template-columns: 1fr 1.23fr;
+    }
+
+    .text {
+        margin-right: 75px;
     }
 
     .text > h1 {
