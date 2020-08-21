@@ -180,6 +180,7 @@ main {
     left: 50%;
     bottom: 0;
     transform: translate(-50%, 35%);
+    z-index: 5;
 }
 
 .overlay > h2 {
@@ -209,6 +210,7 @@ footer {
     background-color: hsl(192, 100%, 6%);
     padding: 190px 70px 63px 100px;
     color: #ffffff;
+    position: relative;
 }
 
 .footer-top {
@@ -311,15 +313,18 @@ img[src*="icon-location"] {
 }
 
 .attribution {
-    display: none;
+    position: absolute;
+    bottom: 0;
 }
 
 .attribution p { 
-    font-size: 11px; 
+    font-size: 16px; 
     text-align: center; 
+    color: #ffffff;
+    left: 50%;
 }
-.attribution p a { 
-    color: hsl(228, 45%, 44%); 
+.attribution a { 
+    color:hsl(157deg, 78%, 60%); 
 }
 
 @media screen and (max-width: 1366px) {
@@ -384,6 +389,10 @@ img[src*="icon-location"] {
 
     .footer-bottom {
         font-size: 13px;
+    }
+
+    .attribution p { 
+        font-size: 15px; 
     }
 }
 
@@ -490,6 +499,10 @@ img[src*="icon-location"] {
 
     .social-links {
         padding-top: 87px;
+    }
+
+    .attribution p { 
+        font-size: 13px; 
     }
 }
 
@@ -684,6 +697,10 @@ img[src*="icon-location"] {
         justify-content: center;
         font-size: 21px;
     }
+
+    .attribution p { 
+        font-size: 16px; 
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -828,5 +845,9 @@ img[src*="icon-location"] {
 
     .footer-bottom {
         font-size: 11px;
+    }
+
+    .attribution p { 
+        font-size: 11px; 
     }
 }
