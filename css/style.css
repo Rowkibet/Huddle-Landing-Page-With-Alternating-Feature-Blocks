@@ -469,7 +469,6 @@ img[src*="icon-location"] {
 
     .text > p {
         margin-bottom: 20px;
-        font-size: 0.83em;
     }
 
     .header-wrapper {
@@ -533,7 +532,160 @@ img[src*="icon-location"] {
 }
 
 @media screen and (max-width: 1050px) {
+    h2 {
+        font-size: 1.16em;
+    }
 
+    p {
+        font-size: 0.75em;
+    }
+
+    .cta {
+        padding: 12px;
+        font-size: 0.62em;
+    }
+
+    .header-wrapper {
+        max-width: 915px;
+    }
+
+    .nav {
+        margin-bottom: 55px;
+    }
+
+    .nav > img {
+        max-width: 155px;
+    }
+
+    .nav-btn {
+        width: 135px;
+        padding: 10px;
+    }
+
+    .inner-container {
+        grid-template-columns: 1fr 1.2fr;
+    }
+
+    .text {
+        padding-top: 70px;
+        margin-right: 27px;
+    }
+
+    .text > h1 {
+        margin-bottom: 15px;
+        font-size: 1.661em;
+    }
+
+    .text > p {
+        margin-bottom: 15px;
+    }
+
+    .text-btn {
+        width: 210px;
+    }
+    
+    main {
+        padding: 100px 0px 220px;
+    }
+    
+    .post {
+        max-width: 900px;
+        margin-bottom: 25px;
+        padding: 40px 15px 40px 80px;
+    }
+
+    .post-wrapper {
+        grid-gap: 65px;
+    }
+
+    .post-text {
+        padding-top: 74px;
+    }
+
+    .post-text > h2 {
+        margin-bottom: 10px;
+    }
+
+    .post-image > img {
+        max-width: 320px;
+    }
+
+    .overlay {
+        width: 525px;
+        padding: 50px 0px 45px;
+    }
+
+    .overlay > h2 {
+        margin-bottom: 20px;
+    }
+
+    .overlay-btn {
+        width: 260px;
+        padding: 16px;
+        font-size: 0.73em;
+    }
+
+    footer {
+        padding: 140px 0px 60px;
+    }
+
+    .footer-wrapper {
+        max-width: 915px;
+    }
+
+    .footer-top {
+        grid-template-columns: 315px 340px 125px;
+        grid-template-rows: 215px;
+        grid-gap: 50px;
+    }
+
+    .contact-info > img {
+        max-width: 185px;
+        margin-bottom: 20px;
+    }
+
+    .contact-wrapper {
+        gap: 20px 15px;
+    }
+
+    img[src*="icon"] {
+        max-width: 15px;
+    }
+
+    img[src*="icon-location"] {
+        max-width: 12px;
+    }
+
+    .contact-wrapper > p,
+    .contact-wrapper > span {
+        font-size: 14px;
+    }
+
+    .shortcut-links {
+        padding-top: 72px;
+    }
+
+    .shortcut-links a {
+        font-size: 16px;
+    }
+
+    .social-links {
+        padding-top: 70px;
+    }
+
+    .social-links a {
+        width: 30px;
+        height: 30px;
+        font-size: 0.85em;
+    }
+
+    .footer-bottom {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    
 }
 
 /* @media screen and (max-width: 1024px) {
