@@ -776,7 +776,12 @@ img[src*="icon-location"] {
     }
     
     header {
-        padding: 50px 30px;
+        padding: 50px 0px;
+    }
+
+    .header-wrapper {
+        max-width: 690px;
+        margin: 0px 30px 0px;
     }
 
     .nav {
@@ -978,6 +983,7 @@ img[src*="icon-location"] {
 
     .header-wrapper {
         max-width: 460px;
+        margin: 0px 20px 0px;
     }
 
     .nav {
@@ -1138,6 +1144,7 @@ img[src*="icon-location"] {
 
     .header-wrapper {
         max-width: 345px;
+        margin: 0px 15px 0px;
     }
 
     .nav {
