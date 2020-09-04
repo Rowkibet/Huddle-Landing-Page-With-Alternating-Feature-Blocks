@@ -279,6 +279,25 @@ img[src*="icon-location"] {
 
 .shortcut-links li {
     margin-bottom: 22px;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.shortcut-links li::after {
+    background-color: #ffffff;
+    display: block;
+    content: '';
+    width: 0;
+    height: 0.05em;
+    position: absolute;
+    bottom: -2px;
+    transition: width 120ms linear;
+}
+
+.shortcut-links li:hover::after {
+    width: 100%;
 }
 
 .shortcut-links li:last-child {
@@ -321,6 +340,12 @@ img[src*="icon-location"] {
     font-size: 1em;
     color: #ffffff;
     text-decoration: none;
+    transform: translateY(0);
+    transition: transform 120ms ease-in-out;
+}
+
+.social-links a:hover {
+    transform: translateY(-3px);
 }
 
 .footer-bottom {
