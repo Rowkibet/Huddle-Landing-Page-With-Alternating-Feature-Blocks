@@ -439,6 +439,7 @@ img[src*="icon-location"] {
 
     .footer-top {
         grid-template-columns: 380px 390px 260px;
+        grid-template-rows: 265px;
         grid-gap: 83px;
     }
 
@@ -552,6 +553,7 @@ img[src*="icon-location"] {
 
     .footer-top {
         grid-template-columns: 340px 340px 145px;
+        grid-template-rows: 255px;
         grid-gap: 90px;
     }
 }
