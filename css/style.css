@@ -769,7 +769,7 @@ img[src*="icon-location"] {
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
     .cta {
         padding: 25px;
         font-size: 1.08em;
@@ -820,7 +820,6 @@ img[src*="icon-location"] {
 
     .text-btn {
         width: 460px;
-        /* width: 76.7%; */
         font-size: 1.15em;
         letter-spacing: 1px;
     }
@@ -913,6 +912,7 @@ img[src*="icon-location"] {
 
     img[src*="icon"] {
         margin-top: 0;
+        max-width: 100%;
     }
 
     img[src*="icon-location"] {
@@ -967,94 +967,64 @@ img[src*="icon-location"] {
     }
 }
 
-/* @media screen and (max-width: 665px) {
-    .cta {
-        padding: 20px;
-    }
-    
-    .nav > img {
-        max-width: 190px;
-    }
-
-    .nav-btn {
-        padding: 10px;
-        width: 168px;
-        font-size: 1em;
-    }
-
-    .inner-container {
-        row-gap: 55px;
-    }
-
-    .text > h1 {
-        font-size: 2.2em;
-    }
-
-    .text > p {
-        margin-bottom: 60px;
-        font-size: 1.486em;
-    }
-
-    .text-btn {
-        width: 400px;
-        font-size: 1em;
-    }
-} */
-
 @media screen and (max-width: 665px) {
     .cta {
-        padding: 13px;
-        font-size: 0.54em;
+        padding: 18px;
     }
 
     header {
-        padding: 25px 15px;
+        padding: 40px 0px;
+    }
+
+    .header-wrapper {
+        max-width: 460px;
     }
 
     .nav {
-        margin-bottom: 87px;
+        margin-bottom: 120px;
     }
 
     .nav > img {
-        max-width: 0;
-        min-width: 110px;
+        max-width: 145px;
     }
 
     .nav-btn {
-        padding: 6px;
-        width: 98px;
-        font-size: 0.55em;
+        padding: 8px;
+        width: 130px;
+        font-size: 0.75em;
     }
 
     .inner-container {
         padding: 0 22px;
-        row-gap: 50px;
+        row-gap: 30px;
     }
 
     .text > h1{
-        margin-bottom: 10px;
-        font-size: 1.295em;
+        margin-bottom: 27px;
+        font-size: 1.825em;
+        line-height: 1.5;
     }
 
     .text > p {
-        margin-bottom: 37px;
-        font-size: 0.87em;
+        margin-bottom: 40px;
+        font-size: 1.23em;
     }
 
     .text-btn {
-        width: 230px;
-        font-size: 0.575em;
+        width: 330px;
+        font-size: 0.82em;
     }
 
     main {
-        padding: 58px 0px 229px;
+        padding: 85px 0px 229px;
     }
 
     .post {
         border-radius: 15px;
-        max-width: 335px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        max-width: 415px;
         margin-bottom: 40px;
-        padding: 56px 37px 37px;
+        padding: 65px 50px 50px;
     }
 
     .post-wrapper {
@@ -1062,33 +1032,35 @@ img[src*="icon-location"] {
     }
 
     .post-text > h2 {
-        margin-bottom: 12px;
-        font-size: 1.045em;
+        margin-bottom: 15px;
+        font-size: 1.345em;
     }
 
     .post-text > p {
-        font-size: 0.73em;
+        font-size: 0.96em;
     }
 
     .post-image > img {
-        max-width: 0;
-        min-width: 217px;
+        max-width: 290px;
     }
 
     .overlay {
         border-radius: 15px;
-        width: 352px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        width: 430px;
         padding: 50px 0 40px;
     }
 
     .overlay > h2 {
-        margin-bottom: 20px;
-        font-size: 1em;
+        margin-bottom: 25px;
+        font-size: 1.25em;
     }
 
     .overlay-btn {
         box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
-        width: 202px;
+        width: 255px;
+        padding: 15px;
+        font-size: 0.75em;
     }
 
     .overlay-btn:hover {
@@ -1096,11 +1068,15 @@ img[src*="icon-location"] {
     }
 
     footer {
-        padding: 135px 12px 50px;
+        padding: 145px 0px 60px;
+    }
+
+    .footer-wrapper {
+        max-width: 430px;
     }
 
     .footer-top {
-        grid-gap: 50px;
+        grid-gap: 60px;
         margin-bottom: 25px;
     }
 
@@ -1109,45 +1085,45 @@ img[src*="icon-location"] {
     }
 
     .contact-info > img {
-        max-width: 165px;
+        max-width: 175px;
     }
 
     .contact-wrapper > p,
     .contact-wrapper > span {
-        font-size: 0.8em;
+        font-size: 0.88em;
     }
 
     img[src*="icon-location"] {
         margin-top: 7px;
-        width: 0.6em;
+        width: 0.8em;
     }
 
     img[src*="icon-phone"] {
-        margin-top: 1px;
-        width: 0.85em;
+        margin-top: 2px;
+        width: 0.95em;
     }
 
     img[src*="icon-email"] {
-        margin-top: 4px;
-        width: 0.9em;
+        margin-top: 5px;
+        width: 1em;
     }
 
     .shortcut-links a {
-        font-size: 17px;
+        font-size: 18px;
     }
 
     .social-links a {
-        width: 28px;
-        height: 28px;
-        font-size: 0.75em;
+        width: 35px;
+        height: 35px;
+        font-size: 0.95em;
     }
 
     .footer-bottom {
-        font-size: 11px;
+        font-size: 12px;
     }
 
     .attribution p { 
-        font-size: 11px; 
+        font-size: 12px; 
     }
 }
 
